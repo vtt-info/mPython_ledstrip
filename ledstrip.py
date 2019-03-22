@@ -78,7 +78,7 @@ def wheel(pos):
 
 class LedStrip(NeoPixel):
 
-    def __init__(self, pin, n=24, brightness=1.0, timing=1):
+    def __init__(self, pin, n=24, brightness=0.5, timing=1):
         self._brightness = brightness
         useable_pin = [Pin.P5, Pin.P6, Pin.P8, Pin.P9, Pin.P11,
                        Pin.P13, Pin.P14, Pin.P15, Pin.P16, Pin.P19, Pin.P20]
